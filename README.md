@@ -1,6 +1,10 @@
 # 💫 About Me:
-I am currently in my 2nd year at Glasgow University studying Computing Science<br>and Mathematics. I also work at Sivers Photonics working on an in-house software<br>that automates the drawing of DFB lasers. I'm interested in learning through my personal<br>projects displayed on my profile.
+I am currently in my 3rf year at Glasgow University studying Computing Science<br>and Mathematics. I also work at Sivers Photonics working on an in-house software<br>that automates the drawing of DFB lasers. I'm interested in learning through my personal<br>projects displayed on my profile.<br>
+I am also a Software Engineer at the University if Glasgow for GUSS, working on software helping students across the institution.
 
+In my free time I mostly work on Python packages like:
+- GDSR: My Python package that allows easy pythonic and intuitive manipulation of GDSII files
+- GDSFactory: A FOSS Python package widely used across the Photonics industry
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/matthew-mckee-227401289) 
