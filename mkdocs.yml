@@ -1,0 +1,25 @@
+site_name: Matthew McKee
+repo_url: https://github.com/MatthewMckee4/MatthewMckee4
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  locale: en
+  palette:
+    scheme: slate
+    primary: custom
+
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.footer
+    - navigation.indexes
+    - content.tabs.link
+
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
