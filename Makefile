@@ -7,3 +7,5 @@ docs:
 
 docs-serve:
 	uv run mkdocs serve
+
+.PHONY: dev docs docs-serve

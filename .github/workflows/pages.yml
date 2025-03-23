@@ -20,7 +20,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: "./docs/site/"
+          path: "./site/"
 
   deploy-docs:
     needs: build-docs
