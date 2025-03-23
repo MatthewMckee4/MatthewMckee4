@@ -1,6 +1,6 @@
 dev:
 	uv sync
-	uv run pre-commit run install
+	uv run pre-commit install
 
 docs:
 	uv run mkdocs build
