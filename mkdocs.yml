@@ -2,7 +2,9 @@ site_name: Matthew McKee
 repo_url: https://github.com/MatthewMckee4/MatthewMckee4
 
 nav:
-  - Home: index.md
+  - About Me:
+      - Home: index.md
+      - Resume: resume.md
 
 theme:
   name: material
@@ -23,3 +25,4 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/resume.css
