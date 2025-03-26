@@ -2,27 +2,27 @@ site_name: Matthew McKee
 repo_url: https://github.com/MatthewMckee4/MatthewMckee4
 
 nav:
-  - About Me:
-      - Home: index.md
-      - Resume: resume.md
+    - About Me:
+          - Home: index.md
+          - Resume: resume.md
 
 theme:
-  name: material
-  locale: en
-  palette:
-    scheme: slate
-    primary: custom
+    name: material
+    locale: en
+    palette:
+        scheme: slate
+        primary: custom
 
-  features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.footer
-    - navigation.indexes
-    - content.tabs.link
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.footer
+        - navigation.indexes
+        - content.tabs.link
 
-  icon:
-    repo: fontawesome/brands/github
+    icon:
+        repo: fontawesome/brands/github
 
 extra_css:
-  - stylesheets/extra.css
-  - stylesheets/resume.css
+    - stylesheets/extra.css
+    - stylesheets/resume.css
