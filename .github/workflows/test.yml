@@ -21,3 +21,6 @@ jobs:
 
             - name: Run Prettier
               run: yarn format
+
+            - name: Run ESLint
+              run: yarn lint
