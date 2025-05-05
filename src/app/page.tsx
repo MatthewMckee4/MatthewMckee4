@@ -3,7 +3,7 @@ export default function Home() {
         <>
             <h1 className="text-4xl font-bold  mb-2">About Me - Matthew McKee</h1>
 
-            <div className="space-y-6 text-gray-600">
+            <div className="space-y-6 text-muted-foreground">
                 <p>
                     I am currently in my 3rd year at Glasgow University studying Computing Science
                     and Mathematics.

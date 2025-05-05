@@ -17,7 +17,7 @@ interface ProjectProps {
 const Project = ({ title, date, description, links }: ProjectProps) => {
     return (
         <Section title={title} date={date}>
-            <p className="text-gray-600 mb-2">{description}</p>
+            <p className="text-muted-foreground mb-2">{description}</p>
             {links && (
                 <div className="space-x-4">
                     {links.map((link, index) => (
