@@ -26,11 +26,7 @@
 
 <small>Over 3000 contributions in the past year</small>
 
-- [Ruff](https://github.com/astral-sh/ruff) (Contributor) 
+- [Ruff](https://github.com/astral-sh/ruff) (Contributor)
 - [KFactory](https://github.com/gdsfactory/kfactory) (Maintainer)
 - [GDSFactory](https://github.com/gdsfactory/gdsfactory) (Maintainer)
 - Python Typing (Contributor)
-
-
-
-

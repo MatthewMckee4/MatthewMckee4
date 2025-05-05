@@ -44,5 +44,3 @@ Software Engineer
 Spring Insights Intern
 
 <small>Acquired knowledge in software engineering at JP Morgan through practical workshops, expert panels, and networking.</small>
-
-
