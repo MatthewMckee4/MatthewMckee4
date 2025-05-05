@@ -1,4 +1,4 @@
-name: Deploy Docs
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -7,32 +7,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-docs:
+  build:
     runs-on: ubuntu-latest
-    name: build docs
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
-      - name: Installing the library
-        run: |
-          make dev
-          make docs
-      - uses: actions/upload-pages-artifact@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
-          path: "./site/"
+          path: src
 
-  deploy-docs:
-    needs: build-docs
-    permissions:
-      pages: write
-      id-token: write
-
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
