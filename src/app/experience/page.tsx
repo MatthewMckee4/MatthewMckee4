@@ -8,14 +8,14 @@ export default function Experience() {
             <section className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                     <h2 className="text-2xl font-semibold">Sivers Photonics</h2>
-                    <small className="text-gray-600">July 2022 - Present</small>
+                    <small className="text-muted-foreground">July 2022 - Present</small>
                 </div>
                 <p className="text-lg font-medium mb-2">Software Engineer</p>
-                <p className="text-gray-600 mb-4">
+                <p className="text-muted-foreground mb-4">
                     Developed full-stack CAD automation software for efficient design of advanced
                     DFB lasers.
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                     <li>
                         Built the internal software for Sivers that now handles the majority of CAD
                         automation processes and yielding a notable reduction of over{" "}
@@ -36,25 +36,27 @@ export default function Experience() {
             <section className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                     <h2 className="text-2xl font-semibold">GDSFactory</h2>
-                    <small className="text-gray-600">February 2025 - Present</small>
+                    <small className="text-muted-foreground">February 2025 - Present</small>
                 </div>
                 <p className="text-lg font-medium mb-2">Software Engineer Intern</p>
-                <p className="text-gray-600">Worked on open source GDSII manipulation software</p>
+                <p className="text-muted-foreground">
+                    Worked on open source GDSII manipulation software
+                </p>
             </section>
 
             <section className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                     <h2 className="text-2xl font-semibold">JP Morgan</h2>
-                    <small className="text-gray-600">July - September 2025</small>
+                    <small className="text-muted-foreground">July - September 2025</small>
                 </div>
                 <p className="text-lg font-medium mb-2">Software Engineer Intern</p>
-                <p className="text-gray-600">Scheduled to begin a summer internship.</p>
+                <p className="text-muted-foreground">Scheduled to begin a summer internship.</p>
             </section>
 
             <section className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                     <h2 className="text-2xl font-semibold">Glasgow University Software Service</h2>
-                    <small className="text-gray-600">October 2024 - Present</small>
+                    <small className="text-muted-foreground">October 2024 - Present</small>
                 </div>
                 <p className="text-lg font-medium">Software Engineer</p>
             </section>
@@ -62,10 +64,10 @@ export default function Experience() {
             <section className="mb-8">
                 <div className="flex justify-between items-center mb-2">
                     <h2 className="text-2xl font-semibold">JP Morgan</h2>
-                    <small className="text-gray-600">April 2024</small>
+                    <small className="text-muted-foreground">April 2024</small>
                 </div>
                 <p className="text-lg font-medium mb-2">Spring Insights Intern</p>
-                <p className="text-gray-600">
+                <p className="text-muted-foreground">
                     Acquired knowledge in software engineering at JP Morgan through practical
                     workshops, expert panels, and networking.
                 </p>

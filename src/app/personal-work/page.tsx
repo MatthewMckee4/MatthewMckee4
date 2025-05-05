@@ -32,8 +32,10 @@ export default function PersonalWork() {
             />
 
             <Section title="Open Source Contributions" date="Nov 2023 - Present">
-                <p className="text-gray-600 mb-4">Over 3000 contributions in the past year</p>
-                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+                <p className="text-muted-foreground mb-4">
+                    Over 3000 contributions in the past year
+                </p>
+                <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                     <li>
                         <ExternalLink href="https://github.com/astral-sh/ruff">Ruff</ExternalLink>{" "}
                         (Contributor)

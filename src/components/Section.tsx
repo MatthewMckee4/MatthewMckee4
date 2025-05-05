@@ -14,7 +14,7 @@ const Section = ({ title, date, children, className = "" }: SectionProps) => {
         <section className={`mb-8 ${className}`}>
             <div className="flex justify-between items-center mb-2">
                 <h2 className="text-2xl font-semibold">{title}</h2>
-                <small className="text-gray-600">{date}</small>
+                <small className="text-muted-foreground">{date}</small>
             </div>
             {children}
         </section>
