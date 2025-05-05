@@ -12,7 +12,7 @@ const ExternalLink = ({ href, children, className = "" }: ExternalLinkProps) => 
     return (
         <a
             href={href}
-            className={`text-blue-600 hover:underline ${className}`}
+            className={`text-gray-600 hover:underline ${className}`}
             target="_blank"
             rel="noopener noreferrer"
         >

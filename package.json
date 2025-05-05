@@ -10,7 +10,8 @@
         "type-check": "tsc --noEmit",
         "format": "prettier --write .",
         "format:check": "prettier --check .",
-        "prepare": "husky"
+        "prepare": "husky",
+        "type-check-staged": "tsc --noEmit --skipLibCheck"
     },
     "dependencies": {
         "next": "14.1.0",
@@ -38,11 +39,13 @@
     "lint-staged": {
         "*.{js,jsx,ts,tsx}": [
             "prettier --write",
-            "eslint --fix",
-            "tsc-files --noEmit"
+            "eslint --fix"
         ],
         "*.{json,md}": [
             "prettier --write"
+        ],
+        "*.{ts,tsx}": [
+            "bash -c 'yarn type-check-staged'"
         ]
     }
 }
