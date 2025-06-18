@@ -44,7 +44,7 @@ export default function PersonalWork() {
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                     <li>
-                        <ExternalLink href="https://github.com/astral-sh/ruff">Ruff</ExternalLink>{" "}
+                        <ExternalLink href="https://github.com/astral-sh/ty">ty</ExternalLink>{" "}
                         (Contributor)
                     </li>
                     <li>
