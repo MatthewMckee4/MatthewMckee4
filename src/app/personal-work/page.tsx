@@ -9,6 +9,13 @@ export default function PersonalWork() {
             <h1 className="text-4xl font-bold mb-6">Personal Work</h1>
 
             <Project
+                title="Karva"
+                date="May 2025 - Present"
+                description="Created a highly performant open-source test framework, similar to pytest, written in Rust."
+                links={[{ text: "Github", href: "https://github.com/MatthewMckee4/karva" }]}
+            />
+
+            <Project
                 title="GDSR"
                 date="Aug 2024 - Present"
                 description="Created a GDSII manipulation python package written in Rust"
