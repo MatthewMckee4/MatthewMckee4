@@ -18,6 +18,12 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
 
+            - name: Setup Typst
+              uses: typst-community/setup-typst@v4
+
+            - name: Build Typst
+              run: typst compile resume.typ public/assets/resume.pdf
+
             - name: Setup Node.js
               uses: actions/setup-node@v4
               with:
