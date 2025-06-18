@@ -9,7 +9,7 @@ I am also a Software Engineer at the University of Glasgow for GUSS, currently n
 In my free time, I enjoy working on Python packages, including:
 
 - Karva, a Python test framework, written in Rust.
-- Ruff, a tool for linting and formatting Python code.
+- ty, a Python type checker, written in Rust.
 - GDSR, a tool for intuitive manipulation of GDSII files.
 
 Find my resume [here](https://matthewmckee.co.uk/assets/resume.pdf).
