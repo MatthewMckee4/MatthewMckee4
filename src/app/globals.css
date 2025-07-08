@@ -67,7 +67,14 @@
 }
 
 @layer base {
+    html {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
     body {
         @apply bg-background text-foreground;
+        width: 100vw;
+        position: relative;
     }
 }
