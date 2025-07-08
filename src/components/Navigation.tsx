@@ -17,9 +17,7 @@ function NavLink({ href, children }: NavLinkProps) {
         <Link
             href={href}
             className={`${
-                isActive
-                    ? "font-bold text-foreground"
-                    : "text-muted-foreground hover:text-foreground"
+                isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"
             } transition-colors`}
         >
             {children}
@@ -29,8 +27,8 @@ function NavLink({ href, children }: NavLinkProps) {
 
 export default function Navigation() {
     return (
-        <nav className="max-w-3xl mx-auto px-4 py-6">
-            <div className="flex justify-between items-center">
+        <nav className="max-w-4xl mx-auto px-4 py-6 sticky top-0 bg-background/80 backdrop-blur-sm border-b border-border">
+            <div className="flex justify-between items-center h-8">
                 <div className="flex gap-4">
                     <NavLink href="/">Home</NavLink>
                     <NavLink href="/experience">Experience</NavLink>

@@ -14,9 +14,17 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en" className="dark">
+            <head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css"
+                />
+            </head>
             <body className={`${inter.className} bg-nord-0 text-nord-4 min-h-screen`}>
                 <Navigation />
-                <main className="max-w-3xl mx-auto px-4 py-6">{children}</main>
+                <main className="max-w-4xl mx-auto px-4 py-6 min-h-[calc(100vh-140px)]">
+                    {children}
+                </main>
             </body>
         </html>
     );
