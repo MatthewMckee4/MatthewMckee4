@@ -5,15 +5,14 @@ export default function Home() {
 
             <div className="space-y-6 text-muted-foreground">
                 <p>
-                    I am currently in my 3rd year at Glasgow University studying Computing Science
+                    I am currently in my 4th year at Glasgow University studying Computing Science
                     and Mathematics.
                 </p>
 
                 <p>
                     I am a Software Engineer at Sivers Photonics, working on an in-house software. I
                     am also a Software Engineer at GDSFactory, working on open and closed source
-                    software. I am also a Software Engineer at the University of Glasgow for GUSS,
-                    currently not working on a project.
+                    software.
                 </p>
 
                 <div>

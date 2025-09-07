@@ -5,12 +5,11 @@ export default function Experience() {
         <div>
             <h1 className="text-4xl font-bold mb-6">Experience</h1>
 
-            <section className="mb-8">
-                <div className="flex justify-between items-center mb-2">
-                    <h2 className="text-2xl font-semibold">Sivers Photonics</h2>
-                    <small className="text-muted-foreground">July 2022 - Present</small>
-                </div>
-                <p className="text-lg font-medium mb-2">Software Engineer</p>
+            <ExperienceSection
+                workplace="Sivers Photonics"
+                date="July 2022 - Present"
+                role="Software Engineer"
+            >
                 <p className="text-muted-foreground mb-4">
                     Developed full-stack CAD automation software for efficient design of advanced
                     DFB lasers.
@@ -31,47 +30,88 @@ export default function Experience() {
                         pipeline.
                     </li>
                 </ul>
-            </section>
+            </ExperienceSection>
 
-            <section className="mb-8">
-                <div className="flex justify-between items-center mb-2">
-                    <h2 className="text-2xl font-semibold">GDSFactory</h2>
-                    <small className="text-muted-foreground">February 2025 - Present</small>
-                </div>
-                <p className="text-lg font-medium mb-2">Software Engineer Intern</p>
+            <ExperienceSection
+                workplace="GDSFactory"
+                date="February 2025 - Present"
+                role="Software Engineer Intern"
+            >
                 <p className="text-muted-foreground">
-                    Worked on open source GDSII manipulation software
+                    Working on open source GDSII manipulation software for designing chips.
                 </p>
-            </section>
+                <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
+                    <li>
+                        Guided one of the largest and most beneficial changes to our open source
+                        Python package.
+                    </li>
+                    <li>
+                        <p className="mb-2">
+                            Worked on improving the user experience of closed-source software
+                            including and using:
+                        </p>
+                        <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
+                            <li>Vscode extensions</li>
+                            <li>AWS</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Helped maintain very high code quality and user engagement of open source
+                        tools.
+                    </li>
+                </ul>
+            </ExperienceSection>
 
-            <section className="mb-8">
-                <div className="flex justify-between items-center mb-2">
-                    <h2 className="text-2xl font-semibold">JP Morgan</h2>
-                    <small className="text-muted-foreground">July - September 2025</small>
-                </div>
-                <p className="text-lg font-medium mb-2">Software Engineer Intern</p>
-                <p className="text-muted-foreground">Scheduled to begin a summer internship.</p>
-            </section>
+            <ExperienceSection
+                workplace="JP Morgan"
+                date="July - September 2025"
+                role="Software Engineer Intern"
+            >
+                <p className="text-muted-foreground">
+                    Worked on type checking and developer tools for a large codebase
+                </p>
+            </ExperienceSection>
 
-            <section className="mb-8">
-                <div className="flex justify-between items-center mb-2">
-                    <h2 className="text-2xl font-semibold">Glasgow University Software Service</h2>
-                    <small className="text-muted-foreground">October 2024 - Present</small>
-                </div>
-                <p className="text-lg font-medium">Software Engineer</p>
-            </section>
+            <ExperienceSection
+                workplace="Glasgow University Software Service"
+                date="October 2024 - Present"
+                role="Software Engineer"
+            >
+                <p className="text-muted-foreground">
+                    Developed and maintained software for the university{"'"}s software service.
+                </p>
+            </ExperienceSection>
 
-            <section className="mb-8">
-                <div className="flex justify-between items-center mb-2">
-                    <h2 className="text-2xl font-semibold">JP Morgan</h2>
-                    <small className="text-muted-foreground">April 2024</small>
-                </div>
-                <p className="text-lg font-medium mb-2">Spring Insights Intern</p>
+            <ExperienceSection
+                workplace="JP Morgan"
+                date="April 2024"
+                role="Spring Insights Intern"
+            >
                 <p className="text-muted-foreground">
                     Acquired knowledge in software engineering at JP Morgan through practical
                     workshops, expert panels, and networking.
                 </p>
-            </section>
+            </ExperienceSection>
         </div>
     );
 }
+
+interface ExperienceSectionProps {
+    workplace: string;
+    date: string;
+    role: string;
+    children: React.ReactNode;
+}
+
+const ExperienceSection = ({ workplace, date, role, children }: ExperienceSectionProps) => {
+    return (
+        <section className="mb-8">
+            <div className="flex justify-between items-center mb-2">
+                <h2 className="text-2xl font-semibold">{workplace}</h2>
+                <small className="text-muted-foreground">{date}</small>
+            </div>
+            <p className="text-lg font-medium mb-2">{role}</p>
+            {children}
+        </section>
+    );
+};
