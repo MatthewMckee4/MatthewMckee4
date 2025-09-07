@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import DatedTitle from "./DatedTitle";
 
 interface SectionProps {
     title: string;
@@ -12,10 +13,7 @@ interface SectionProps {
 const Section = ({ title, date, children, className = "" }: SectionProps) => {
     return (
         <section className={`mb-8 ${className}`}>
-            <div className="flex justify-between items-center mb-2">
-                <h2 className="text-2xl font-semibold">{title}</h2>
-                <small className="text-muted-foreground">{date}</small>
-            </div>
+            <DatedTitle title={title} date={date} />
             {children}
         </section>
     );

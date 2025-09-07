@@ -30,6 +30,8 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   [*June 2025 - September 2025*]
 )
 
+- Worked on type checking and developer tools for a large codebase
+
 #grid(
   columns: (1fr, auto),
   align: (left, right),
@@ -87,9 +89,9 @@ I am very passionate about Python and Rust. In particular, I am invested in the 
 
 Also, with my internship at GDSFactory, I have become a maintainer of the GDSFactory and KFactory repositories.
 
-- #link("https://github.com/gdsfactory/gdsfactory")[#underline("GDSFactory")] (Maintainer)  
-- #link("https://github.com/gdsfactory/kfactory")[#underline("KFactory")] (Maintainer)  
-- #link("https://github.com/astral-sh/ty")[#underline("ty")] (Contributor)  
+- #link("https://github.com/gdsfactory/gdsfactory")[#underline("GDSFactory")] (Maintainer)
+- #link("https://github.com/gdsfactory/kfactory")[#underline("KFactory")] (Maintainer)
+- #link("https://github.com/astral-sh/ty")[#underline("ty")] (Contributor)
 
 
 #line(length: 100%)
@@ -119,10 +121,10 @@ Bachelor of Science in Computing Science and Mathematics
 
 == Technical Skills
 
-*Back End:* Python, Rust, Java, MongoDB, SQLite, PostgreSQL, FastAPI, Pydantic, C++, C  
+*Back End:* Python, Rust, Java, MongoDB, SQLite, PostgreSQL, FastAPI, Pydantic, C++, C
 
-*Front End:* React, JavaScript, TypeScript, NodeJS, Tailwind CSS, NextJS  
+*Front End:* React, JavaScript, TypeScript, NodeJS, Tailwind CSS, NextJS
 
-*Testing/Deployment:* JUnit, Unittest, GitHub Pages, PyTest  
+*Testing/Deployment:* JUnit, Unittest, GitHub Pages, PyTest
 
 *Dev Tools:* Docker, Git, npm, TDD, nginx
