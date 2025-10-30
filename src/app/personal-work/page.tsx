@@ -11,21 +11,35 @@ export default function PersonalWork() {
             <Project
                 title="Karva"
                 date="May 2025 - Present"
-                description="Created a highly performant open-source test framework, similar to pytest, written in Rust."
+                description="An extremely fast Python test framework, similar to pytest, written in Rust.
+
+                Karva aims to be an all in one test framework that can be used for every kind of testing."
                 links={[{ text: "Github", href: "https://github.com/MatthewMckee4/karva" }]}
             />
 
             <Project
                 title="GDSR"
                 date="Aug 2024 - Present"
-                description="Created a GDSII manipulation python package written in Rust"
+                description="Created a GDSII manipulation package written in Rust."
                 links={[{ text: "Github", href: "https://github.com/MatthewMckee4/gdsr" }]}
+            />
+
+            <Project
+                title="Unsoundness Checker"
+                date="Aug 2025 - Present"
+                description="Created a static analysis tool for detecting unsoundness in Python code for my 4th year project."
+                links={[
+                    {
+                        text: "Github",
+                        href: "https://github.com/MatthewMckee4/unsoundness-checker",
+                    },
+                ]}
             />
 
             <Project
                 title="ReviewIt"
                 date="Aug 2023 - Dec 2023"
-                description="Developed a MERN stack Music Rating website that interacts with Spotify API"
+                description="Developed a MERN stack Music Rating website that interacts with Spotify API."
                 links={[
                     {
                         text: "Frontend",
