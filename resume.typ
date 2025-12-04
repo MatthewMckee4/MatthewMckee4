@@ -21,7 +21,7 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
 
 - Developed full-stack CAD automation software for advanced DFB laser design.
 - Built internal software reducing product design timelines by over *50%*, improving efficiency and customer satisfaction.
-- Used GitHub Actions for CI/CD, ensuring automated testing and consistent deployment workflows.
+- Maintained several on-site machines to host internal applications for employees.
 
 #grid(
   columns: (1fr, auto),
@@ -30,7 +30,8 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   [*June 2025 - September 2025*]
 )
 
-- Worked on type checking and developer tools for a large codebase
+- Worked on type checking and developer tools for a large internal codebase.
+- Improved developer experience and efficiency for over *4000* developers.
 
 #grid(
   columns: (1fr, auto),
@@ -39,9 +40,8 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   [*February 2025 - Present*]
 )
 
-- Developed and enhanced features in GDSFactory, used in photonic circuit design and fabrication.
-- Resolved bugs, improving reliability of widely adopted photonics software.
-
+- Became a core maintainer of a library with over *4 million downloads*.
+- Helped develop several closed-source customer applications.
 
 #grid(
   columns: (1fr, auto),
@@ -50,8 +50,6 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   [*October 2024 - Present*]
 )
 
-
-
 #line(length: 100%)
 
 == Projects
@@ -59,25 +57,21 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
 #grid(
   columns: (1fr, auto),
   align: (left, right),
-  [=== Karva | Python Test Framework, Written in Rust],
+  [=== Karva | Python Test Framework, Written in Rust | #link("https://github.com/MatthewMckee4/karva")[#underline("GitHub")]],
   [*May 2025 - Present*]
 )
 
 - Created a highly performant open-source test framework, similar to pytest, written in Rust.
 
-#link("https://github.com/MatthewMckee4/karva")[#underline("GitHub")]
-
 #grid(
   columns: (1fr, auto),
   align: (left, right),
-  [=== GDSR | GDSII Manipulation Python Package, Written in Rust],
+  [=== GDSR | GDSII Manipulation Python Package, Written in Rust | #link("https://github.com/MatthewMckee4/gdsr")[#underline("GitHub")]],
   [*Aug 2024 - Present*]
 )
 
-- Created a performant open-source GDSII manipulation package written in Rust with a Python API.
-- Enabled reading, writing, and modifying GDSII files through a simple API.
-
-#link("https://github.com/MatthewMckee4/gdsr")[#underline("GitHub")]
+- Created an extremely fast GDSII editing package, in Rust.
+- Enabled reading, writing, and modifying GDSII files.
 
 #line(length: 100%)
 
@@ -85,7 +79,7 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
 
 Over 4000 contributions in the past year
 
-I am very passionate about Python and Rust. In particular, I am invested in the Python typing community, contributing to the Python type checker ty regularly.
+I am very passionate about Python and Rust. In particular, I am invested in the Python typing community, being the largest public contributor to the Python type checker and language server ty regularly.
 
 Also, with my internship at GDSFactory, I have become a maintainer of the GDSFactory and KFactory repositories.
 
@@ -107,24 +101,20 @@ Also, with my internship at GDSFactory, I have become a maintainer of the GDSFac
 
 Bachelor of Science in Computing Science and Mathematics
 
-// #grid(
-//   columns: (1fr, auto),
-//   align: (left, right),
-//   [=== Jordanhill School],
-//   [*2016 - 2022*]
-// )
+- Dougall Prize for 3rd year Mathematics
 
-// - AAAB at Advanced Higher
-// - AAAAA at Higher
+#grid(
+  columns: (1fr, auto),
+  align: (left, right),
+  [=== Jordanhill School],
+  [*2016 - 2022*]
+)
+
+- AAAB at Advanced Higher
+- AAAAA at Higher
 
 #line(length: 100%)
 
 == Technical Skills
 
-*Back End:* Python, Rust, Java, MongoDB, SQLite, PostgreSQL, FastAPI, Pydantic, C++, C
-
-*Front End:* React, JavaScript, TypeScript, NodeJS, Tailwind CSS, NextJS
-
-*Testing/Deployment:* JUnit, Unittest, GitHub Pages, PyTest
-
-*Dev Tools:* Docker, Git, npm, TDD, nginx
+Rust, Python, Type Checking, Language Server, React, TypeScript, Docker, nginx, linux, vim.
