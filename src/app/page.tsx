@@ -21,6 +21,7 @@ export default function Home() {
                     </p>
                     <ul className="list-disc pl-6 space-y-2">
                         <li>Karva, a Python test framework, written in Rust.</li>
+                        <li>Seal, an extremely fast release management tool, written in Rust.</li>
                         <li>ty, a Python type checker, written in Rust.</li>
                         <li>GDSR, a tool for intuitive manipulation of GDSII files.</li>
                     </ul>

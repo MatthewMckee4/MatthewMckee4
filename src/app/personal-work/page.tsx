@@ -18,6 +18,13 @@ export default function PersonalWork() {
             />
 
             <Project
+                title="Seal"
+                date="December 2025 - Present"
+                description="Created an extremely fast release management tool, written in Rust."
+                links={[{ text: "Github", href: "https://github.com/MatthewMckee4/seal" }]}
+            />
+
+            <Project
                 title="GDSR"
                 date="Aug 2024 - Present"
                 description="Created a GDSII manipulation package written in Rust."
@@ -52,9 +59,9 @@ export default function PersonalWork() {
                 ]}
             />
 
-            <Section title="Open Source Contributions" date="Nov 2023 - Present">
+            <Section title="Open Source Contributions">
                 <p className="text-muted-foreground mb-4">
-                    Over 3000 contributions in the past year
+                    Over 4000 contributions in the past year
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                     <li>

@@ -61,7 +61,17 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   [*May 2025 - Present*]
 )
 
-- Created a highly performant open-source test framework, similar to pytest, written in Rust.
+- Created an extremely fast Python test framework, similar to pytest, written in Rust.
+
+
+#grid(
+  columns: (1fr, auto),
+  align: (left, right),
+  [=== Seal | Release Management Tool, Written in Rust | #link("https://github.com/MatthewMckee4/seal")[#underline("GitHub")]],
+  [*May 2025 - Present*]
+)
+
+- Created an extremely fast release management tool, written in Rust.
 
 #grid(
   columns: (1fr, auto),
@@ -70,8 +80,7 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   [*Aug 2024 - Present*]
 )
 
-- Created an extremely fast GDSII editing package, in Rust.
-- Enabled reading, writing, and modifying GDSII files.
+- Created a fast GDSII editing package, written in Rust, allowing reading, writing, and modifying of GDSII files.
 
 #line(length: 100%)
 
