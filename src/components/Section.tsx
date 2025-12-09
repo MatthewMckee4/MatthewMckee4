@@ -5,7 +5,7 @@ import DatedTitle from "./DatedTitle";
 
 interface SectionProps {
     title: string;
-    date: string;
+    date?: string;
     children: React.ReactNode;
     className?: string;
 }
