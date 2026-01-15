@@ -9,9 +9,7 @@ export default function Home() {
                     and Mathematics.
                 </p>
 
-                <p>
-                    I am a Software Engineer at Sivers Photonics, working on an in-house software.
-                </p>
+                <p>I am a Software Engineer at Sivers Photonics, working on in-house software.</p>
 
                 <div>
                     <p className="mb-4">In my free time, I enjoy writing Rust and Python.</p>
