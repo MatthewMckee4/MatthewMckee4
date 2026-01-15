@@ -5,11 +5,9 @@ export default function Home() {
 
             <div className="space-y-6 text-muted-foreground">
                 <p>
-                    I am currently in my 4th year at Glasgow University studying Computing Science
-                    and Mathematics.
+                    Software Engineer at xAI. Studying Computing Science and Mathematics at Glasgow
+                    University.
                 </p>
-
-                <p>I am a Software Engineer at Sivers Photonics, working on in-house software.</p>
 
                 <div>
                     <p className="mb-4">In my free time, I enjoy writing Rust and Python.</p>

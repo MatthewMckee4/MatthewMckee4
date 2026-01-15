@@ -1,8 +1,6 @@
 # About Me
 
-I am currently in my 4th year at Glasgow University studying Computing Science and Mathematics.
-
-I am a Software Engineer at Sivers Photonics, working on in-house software.
+Software Engineer at xAI. Studying Computing Science and Mathematics at Glasgow University.
 
 In my free time, I enjoy writing Rust and Python.
 

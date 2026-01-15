@@ -1,27 +1,25 @@
 #set document(title: "Resume")
 #set page(margin: 20pt)
-// #set text(font: "Hack", size: 10pt)
-
+// #set text(font: "ibm plex sans", size: 11pt)
 
 = Matthew Mckee
-Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.uk`
+Glasgow, Scotland (Open to Remote) • 07452991039 • #text("matthewmckee04@yahoo.co.uk")
 
 #link("https://www.linkedin.com/in/matthew-mckee-227401289/")[#underline("LinkedIn")] | #link("https://github.com/MatthewMckee4")[#underline("GitHub")] | #link("https://matthewmckee.co.uk")[#underline("Portfolio Website")]
 
-#line(length: 100%)
+#line(length: 100%, stroke: 1pt + gray)
 
 == Experience
 
 #grid(
   columns: (1fr, auto),
   align: (left, right),
-  [=== Software Engineer | Sivers Photonics],
-  [*July 2022 - Present*]
+  [=== Software Engineer Specialist | xAI],
+  [*January 2026 - Present*]
 )
 
-- Developed full-stack CAD automation software for advanced DFB laser design.
-- Built internal software reducing product design timelines by over *50%*, improving efficiency and customer satisfaction.
-- Maintained several on-site machines to host internal applications for employees.
+- Played a central role in designing and building evaluations for state-of-the-art coding models
+
 
 #grid(
   columns: (1fr, auto),
@@ -46,11 +44,15 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
 #grid(
   columns: (1fr, auto),
   align: (left, right),
-  [=== Software Engineer | Glasgow University Software Service],
-  [*October 2024 - January 2026*]
+  [=== Software Engineer | Sivers Photonics],
+  [*July 2022 - Present*]
 )
 
-#line(length: 100%)
+- Developed full-stack CAD automation software for advanced DFB laser design.
+- Built internal software reducing product design timelines by over *50%*, improving efficiency and customer satisfaction.
+- Maintained several on-site machines to host internal applications for employees.
+
+#line(length: 100%, stroke: 1pt + gray)
 
 == Projects
 
@@ -82,22 +84,18 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
 
 - Created a fast GDSII editing package, written in Rust, allowing reading, writing, and modifying of GDSII files.
 
-#line(length: 100%)
+#line(length: 100%, stroke: 1pt + gray)
 
-== Open Source Contributions
+== Open Source Work
 
-Over 4000 contributions in the past year
+I have over 4000 contributions in the past year
 
-I am very passionate about Python and Rust. In particular, I am invested in the Python typing community, being the largest public contributor to the Python type checker and language server ty regularly.
+I love writing Python and Rust.
+I am particularly interested in the Python typing community, being the largest public contributor to the Python type checker and language server ty.
 
-Also, with my internship at GDSFactory, I have become a maintainer of the GDSFactory and KFactory repositories.
+I have previously maintained the GDSFactory library, which has over 4 million downloads.
 
-- #link("https://github.com/gdsfactory/gdsfactory")[#underline("GDSFactory")] (Maintainer)
-- #link("https://github.com/gdsfactory/kfactory")[#underline("KFactory")] (Maintainer)
-- #link("https://github.com/astral-sh/ty")[#underline("ty")] (Contributor)
-
-
-#line(length: 100%)
+#line(length: 100%, stroke: 1pt + gray)
 
 == Education
 
@@ -122,7 +120,7 @@ Bachelor of Science in Computing Science and Mathematics
 - AAAB at Advanced Higher
 - AAAAA at Higher
 
-#line(length: 100%)
+#line(length: 100%, stroke: 1pt + gray)
 
 == Technical Skills
 
