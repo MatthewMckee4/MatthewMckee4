@@ -10,15 +10,12 @@ export default function Home() {
                 </p>
 
                 <p>
-                    I am a Software Engineer at Sivers Photonics, working on an in-house software. I
-                    am also a Software Engineer at GDSFactory, working on open and closed source
-                    software.
+                    I am a Software Engineer at Sivers Photonics, working on an in-house software.
                 </p>
 
                 <div>
-                    <p className="mb-4">
-                        In my free time, I enjoy working on Python packages, including:
-                    </p>
+                    <p className="mb-4">In my free time, I enjoy writing Rust and Python.</p>
+                    <p className="mb-4">Some of the projects I have been working on are:</p>
                     <ul className="list-disc pl-6 space-y-2">
                         <li>Karva, a Python test framework, written in Rust.</li>
                         <li>Seal, an extremely fast release management tool, written in Rust.</li>
