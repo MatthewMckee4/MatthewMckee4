@@ -3,12 +3,13 @@
 I am currently in my 4th year at Glasgow University studying Computing Science and Mathematics.
 
 I am a Software Engineer at Sivers Photonics, working on an in-house software.
-I am also a Software Engineer at GDSFactory, working on open and closed source software.
-I am also a Software Engineer at the University of Glasgow for GUSS, currently not working on a project.
 
-In my free time, I enjoy working on Python packages, including:
+In my free time, I enjoy writing Rust and Python.
+
+Some of the projects I have been working on are:
 
 - Karva, a Python test framework, written in Rust.
+- Seal, an extremely fast release management tool, written in Rust.
 - ty, a Python type checker, written in Rust.
 - GDSR, a tool for intuitive manipulation of GDSII files.
 
