@@ -37,7 +37,7 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   columns: (1fr, auto),
   align: (left, right),
   [=== Software Engineer Intern | GDSFactory],
-  [*February 2025 - Present*]
+  [*February 2025 - January 2026*]
 )
 
 - Became a core maintainer of a library with over *4 million downloads*.
@@ -47,7 +47,7 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • `matthewmckee04@yahoo.co.
   columns: (1fr, auto),
   align: (left, right),
   [=== Software Engineer | Glasgow University Software Service],
-  [*October 2024 - Present*]
+  [*October 2024 - January 2026*]
 )
 
 #line(length: 100%)
