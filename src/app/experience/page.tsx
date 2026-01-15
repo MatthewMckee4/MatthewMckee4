@@ -34,7 +34,7 @@ export default function Experience() {
 
             <ExperienceSection
                 workplace="GDSFactory"
-                date="February 2025 - Present"
+                date="February 2025 - January 2026"
                 role="Software Engineer Intern"
             >
                 <p className="text-muted-foreground">
@@ -74,7 +74,7 @@ export default function Experience() {
 
             <ExperienceSection
                 workplace="Glasgow University Software Service"
-                date="October 2024 - Present"
+                date="October 2024 - January 2026"
                 role="Software Engineer"
             >
                 <p className="text-muted-foreground">
