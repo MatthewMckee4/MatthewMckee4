@@ -6,30 +6,26 @@ export default function Experience() {
             <h1 className="text-4xl font-bold mb-6">Experience</h1>
 
             <ExperienceSection
-                workplace="Sivers Photonics"
-                date="July 2022 - Present"
-                role="Software Engineer"
+                workplace="xAI"
+                date="January 2026 - Present"
+                role="Software Engineer Specialist"
             >
-                <p className="text-muted-foreground mb-4">
-                    Developed full-stack CAD automation software for efficient design of advanced
-                    DFB lasers.
-                </p>
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
                     <li>
-                        Built the internal software for Sivers that now handles the majority of CAD
-                        automation processes and yielding a notable reduction of over{" "}
-                        <strong>50%</strong> in product design and creation timelines. This
-                        enhancement has significantly improved operational efficiency and customer
-                        satisfaction.
-                    </li>
-                    <li>Contributed to the development of advanced photonics technology.</li>
-                    <li>
-                        Utilized GitHub Actions to automate CI/CD workflows, enabling continuous
-                        integration, deployment, and automated testing. This ensured consistent
-                        quality checks, rapid feedback on code changes, and a reliable development
-                        pipeline.
+                        Played a central role in designing and building evaluations for
+                        state-of-the-art coding models
                     </li>
                 </ul>
+            </ExperienceSection>
+
+            <ExperienceSection
+                workplace="JP Morgan"
+                date="July - September 2025"
+                role="Software Engineer Intern"
+            >
+                <p className="text-muted-foreground">
+                    Worked on type checking and developer tools for a large codebase
+                </p>
             </ExperienceSection>
 
             <ExperienceSection
@@ -37,7 +33,7 @@ export default function Experience() {
                 date="February 2025 - January 2026"
                 role="Software Engineer Intern"
             >
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground mb-4">
                     Working on open source GDSII manipulation software for designing chips.
                 </p>
                 <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
@@ -63,13 +59,30 @@ export default function Experience() {
             </ExperienceSection>
 
             <ExperienceSection
-                workplace="JP Morgan"
-                date="July - September 2025"
-                role="Software Engineer Intern"
+                workplace="Sivers Photonics"
+                date="July 2022 - Present"
+                role="Software Engineer"
             >
-                <p className="text-muted-foreground">
-                    Worked on type checking and developer tools for a large codebase
+                <p className="text-muted-foreground mb-4">
+                    Developed full-stack CAD automation software for efficient design of advanced
+                    DFB lasers.
                 </p>
+                <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
+                    <li>
+                        Built the internal software for Sivers that now handles the majority of CAD
+                        automation processes and yielding a notable reduction of over{" "}
+                        <strong>50%</strong> in product design and creation timelines. This
+                        enhancement has significantly improved operational efficiency and customer
+                        satisfaction.
+                    </li>
+                    <li>Contributed to the development of advanced photonics technology.</li>
+                    <li>
+                        Utilized GitHub Actions to automate CI/CD workflows, enabling continuous
+                        integration, deployment, and automated testing. This ensured consistent
+                        quality checks, rapid feedback on code changes, and a reliable development
+                        pipeline.
+                    </li>
+                </ul>
             </ExperienceSection>
 
             <ExperienceSection
