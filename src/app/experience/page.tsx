@@ -86,7 +86,7 @@ export default function Experience() {
             </ExperienceSection>
 
             <ExperienceSection
-                workplace="The University of Glasgow Software Service"
+                workplace="Glasgow University Software Service"
                 date="October 2024 - January 2026"
                 role="Software Engineer"
             >
