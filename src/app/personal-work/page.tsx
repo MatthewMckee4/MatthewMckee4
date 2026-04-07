@@ -10,78 +10,91 @@ export default function PersonalWork() {
 
             <Project
                 title="Karva"
-                date="May 2025 - Present"
-                description="An extremely fast Python test framework, similar to pytest, written in Rust.
-
-                Karva aims to be an all in one test framework that can be used for every kind of testing."
-                links={[{ text: "Github", href: "https://github.com/MatthewMckee4/karva" }]}
-            />
-
-            <Project
-                title="Seal"
-                date="December 2025 - Present"
-                description="Created an extremely fast release management tool, written in Rust."
-                links={[{ text: "Github", href: "https://github.com/MatthewMckee4/seal" }]}
+                description="An extremely fast Python test framework, written in Rust."
+                links={[
+                    { text: "GitHub", href: "https://github.com/karva-dev/karva" },
+                    { text: "Docs", href: "https://karva-dev.github.io/karva/" },
+                ]}
             />
 
             <Project
                 title="GDSR"
-                date="Aug 2024 - Present"
-                description="Created a GDSII manipulation package written in Rust."
-                links={[{ text: "Github", href: "https://github.com/MatthewMckee4/gdsr" }]}
+                description="GDSII manipulation, written in Rust."
+                links={[
+                    { text: "GitHub", href: "https://github.com/MatthewMckee4/gdsr" },
+                    { text: "Docs", href: "https://matthewmckee4.github.io/gdsr/" },
+                ]}
+            />
+
+            <Project
+                title="Seal"
+                description="An extremely fast release management tool, written in Rust."
+                links={[
+                    { text: "GitHub", href: "https://github.com/karva-dev/seal" },
+                    { text: "Docs", href: "https://matthewmckee4.github.io/seal/" },
+                ]}
+            />
+
+            <Project
+                title="Kount"
+                description="An extremely fast line counter for files, written in Rust."
+                links={[
+                    { text: "GitHub", href: "https://github.com/karva-dev/kount" },
+                    { text: "Docs", href: "https://karva-dev.github.io/kount/" },
+                ]}
+            />
+
+            <Project
+                title="Action Format"
+                description="An opinionated GitHub action formatter."
+                links={[{ text: "GitHub", href: "https://github.com/karva-dev/action-format" }]}
             />
 
             <Project
                 title="Unsoundness Checker"
-                date="Aug 2025 - Present"
-                description="Created a static analysis tool for detecting unsoundness in Python code for my 4th year project."
+                description="A tool for reporting possible typing unsoundness in Python."
                 links={[
                     {
-                        text: "Github",
+                        text: "GitHub",
                         href: "https://github.com/MatthewMckee4/unsoundness-checker",
+                    },
+                    {
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/unsoundness-checker/",
                     },
                 ]}
             />
 
             <Project
-                title="ReviewIt"
-                date="Aug 2023 - Dec 2023"
-                description="Developed a MERN stack Music Rating website that interacts with Spotify API."
+                title="Cram"
+                description="A flashcard app with Typst-powered card rendering, written in Rust."
+                links={[
+                    { text: "GitHub", href: "https://github.com/MatthewMckee4/cram" },
+                    { text: "Docs", href: "https://matthewmckee4.github.io/cram/" },
+                ]}
+            />
+
+            <Project
+                title="Pydantic Explain"
+                description="Human-readable error messages for Pydantic validation errors."
                 links={[
                     {
-                        text: "Frontend",
-                        href: "https://github.com/MatthewMckee4/Music-Rating-Frontend",
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/pydantic-explain",
                     },
                     {
-                        text: "Backend",
-                        href: "https://github.com/MatthewMckee4/Music-Rating-Backend",
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/pydantic-explain/",
                     },
                 ]}
             />
 
             <Section title="Open Source Contributions">
-                <p className="text-muted-foreground mb-4">
-                    Over 4000 contributions in the past year
+                <p className="text-muted-foreground">
+                    Over 4000 contributions in the past year. Top public contributor to{" "}
+                    <ExternalLink href="https://github.com/astral-sh/ty">ty</ExternalLink>, an
+                    extremely fast Python type checker written in Rust.
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-                    <li>
-                        <ExternalLink href="https://github.com/astral-sh/ty">ty</ExternalLink>{" "}
-                        (Contributor)
-                    </li>
-                    <li>
-                        <ExternalLink href="https://github.com/gdsfactory/kfactory">
-                            KFactory
-                        </ExternalLink>{" "}
-                        (Maintainer)
-                    </li>
-                    <li>
-                        <ExternalLink href="https://github.com/gdsfactory/gdsfactory">
-                            GDSFactory
-                        </ExternalLink>{" "}
-                        (Maintainer)
-                    </li>
-                    <li>Python Typing (Contributor)</li>
-                </ul>
             </Section>
         </div>
     );

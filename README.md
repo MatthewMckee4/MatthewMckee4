@@ -1,8 +1,6 @@
 # About Me
 
-Software Engineer at xAI. Studying Computing Science and Mathematics at Glasgow University.
-
-In my free time, I enjoy writing Rust and Python.
+Software Engineer at xAI. Studying Computing Science and Mathematics at The University of Glasgow. I enjoy writing Rust and Python.
 
 Some of the projects I have been working on are:
 
