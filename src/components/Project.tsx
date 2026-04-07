@@ -1,12 +1,8 @@
-"use client";
-
 import React from "react";
-import Section from "./Section";
 import ExternalLink from "./ExternalLink";
 
 interface ProjectProps {
     title: string;
-    date: string;
     description: string;
     links?: Array<{
         text: string;
@@ -14,9 +10,10 @@ interface ProjectProps {
     }>;
 }
 
-const Project = ({ title, date, description, links }: ProjectProps) => {
+const Project = ({ title, description, links }: ProjectProps) => {
     return (
-        <Section title={title} date={date}>
+        <section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-2">{title}</h2>
             <p className="text-muted-foreground mb-2">{description}</p>
             {links && (
                 <div className="space-x-4">
@@ -27,7 +24,7 @@ const Project = ({ title, date, description, links }: ProjectProps) => {
                     ))}
                 </div>
             )}
-        </Section>
+        </section>
     );
 };
 
