@@ -12,8 +12,8 @@ export default function PersonalWork() {
                 title="Karva"
                 description="An extremely fast Python test framework, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/karva-dev/karva" },
-                    { text: "Docs", href: "https://karva-dev.github.io/karva/" },
+                    { text: "GitHub", href: "https://github.com/MatthewMckee4/karva" },
+                    { text: "Docs", href: "https://matthewmckee4.github.io/karva/" },
                 ]}
             />
 
@@ -30,7 +30,7 @@ export default function PersonalWork() {
                 title="Seal"
                 description="An extremely fast release management tool, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/karva-dev/seal" },
+                    { text: "GitHub", href: "https://github.com/MatthewMckee4/seal" },
                     { text: "Docs", href: "https://matthewmckee4.github.io/seal/" },
                 ]}
             />
@@ -39,15 +39,15 @@ export default function PersonalWork() {
                 title="Kount"
                 description="An extremely fast line counter for files, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/karva-dev/kount" },
-                    { text: "Docs", href: "https://karva-dev.github.io/kount/" },
+                    { text: "GitHub", href: "https://github.com/MatthewMckee4/kount" },
+                    { text: "Docs", href: "https://matthewmckee4.github.io/kount/" },
                 ]}
             />
 
             <Project
                 title="Action Format"
                 description="An opinionated GitHub action formatter."
-                links={[{ text: "GitHub", href: "https://github.com/karva-dev/action-format" }]}
+                links={[{ text: "GitHub", href: "https://github.com/MatthewMckee4/action-format" }]}
             />
 
             <Project

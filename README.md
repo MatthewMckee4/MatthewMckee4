@@ -9,6 +9,4 @@ Some of the projects I have been working on are:
 - ty, a Python type checker, written in Rust.
 - GDSR, a tool for intuitive manipulation of GDSII files.
 
-Most of my projects live under [karva-dev](https://github.com/karva-dev).
-
 Find my resume [here](https://matthewmckee.co.uk/assets/resume.pdf).
