@@ -1,4 +1,4 @@
-import React from "react";
+import type React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navigation from "@/components/Navigation";
@@ -11,7 +11,11 @@ export const metadata: Metadata = {
     description: "Personal website of Matthew McKee",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
     return (
         <html lang="en" className="dark">
             <head>
@@ -20,7 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     href="https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css"
                 />
             </head>
-            <body className={`${inter.className} bg-nord-0 text-nord-4 min-h-screen`}>
+            <body
+                className={`${inter.className} bg-nord-0 text-nord-4 min-h-screen`}
+            >
                 <Navigation />
                 <main className="max-w-4xl mx-auto px-4 py-6 min-h-[calc(100vh-140px)]">
                     {children}

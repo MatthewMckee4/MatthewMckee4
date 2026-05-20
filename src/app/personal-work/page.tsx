@@ -1,4 +1,3 @@
-import React from "react";
 import Section from "@/components/Section";
 import Project from "@/components/Project";
 import ExternalLink from "@/components/ExternalLink";
@@ -12,8 +11,14 @@ export default function PersonalWork() {
                 title="Karva"
                 description="An extremely fast Python test framework, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/MatthewMckee4/karva" },
-                    { text: "Docs", href: "https://matthewmckee4.github.io/karva/" },
+                    {
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/karva",
+                    },
+                    {
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/karva/",
+                    },
                 ]}
             />
 
@@ -21,8 +26,14 @@ export default function PersonalWork() {
                 title="GDSR"
                 description="GDSII manipulation, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/MatthewMckee4/gdsr" },
-                    { text: "Docs", href: "https://matthewmckee4.github.io/gdsr/" },
+                    {
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/gdsr",
+                    },
+                    {
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/gdsr/",
+                    },
                 ]}
             />
 
@@ -30,8 +41,14 @@ export default function PersonalWork() {
                 title="Seal"
                 description="An extremely fast release management tool, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/MatthewMckee4/seal" },
-                    { text: "Docs", href: "https://matthewmckee4.github.io/seal/" },
+                    {
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/seal",
+                    },
+                    {
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/seal/",
+                    },
                 ]}
             />
 
@@ -39,15 +56,26 @@ export default function PersonalWork() {
                 title="Kount"
                 description="An extremely fast line counter for files, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/MatthewMckee4/kount" },
-                    { text: "Docs", href: "https://matthewmckee4.github.io/kount/" },
+                    {
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/kount",
+                    },
+                    {
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/kount/",
+                    },
                 ]}
             />
 
             <Project
                 title="Action Format"
                 description="An opinionated GitHub action formatter."
-                links={[{ text: "GitHub", href: "https://github.com/MatthewMckee4/action-format" }]}
+                links={[
+                    {
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/action-format",
+                    },
+                ]}
             />
 
             <Project
@@ -69,8 +97,14 @@ export default function PersonalWork() {
                 title="Cram"
                 description="A flashcard app with Typst-powered card rendering, written in Rust."
                 links={[
-                    { text: "GitHub", href: "https://github.com/MatthewMckee4/cram" },
-                    { text: "Docs", href: "https://matthewmckee4.github.io/cram/" },
+                    {
+                        text: "GitHub",
+                        href: "https://github.com/MatthewMckee4/cram",
+                    },
+                    {
+                        text: "Docs",
+                        href: "https://matthewmckee4.github.io/cram/",
+                    },
                 ]}
             />
 
@@ -91,9 +125,12 @@ export default function PersonalWork() {
 
             <Section title="Open Source Contributions">
                 <p className="text-muted-foreground">
-                    Over 4000 contributions in the past year. Top public contributor to{" "}
-                    <ExternalLink href="https://github.com/astral-sh/ty">ty</ExternalLink>, an
-                    extremely fast Python type checker written in Rust.
+                    Over 4000 contributions in the past year. Top public
+                    contributor to{" "}
+                    <ExternalLink href="https://github.com/astral-sh/ty">
+                        ty
+                    </ExternalLink>
+                    , an extremely fast Python type checker written in Rust.
                 </p>
             </Section>
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import type React from "react";
 
 interface ExternalLinkProps {
     href: string;
@@ -8,7 +8,11 @@ interface ExternalLinkProps {
     className?: string;
 }
 
-const ExternalLink = ({ href, children, className = "" }: ExternalLinkProps) => {
+const ExternalLink = ({
+    href,
+    children,
+    className = "",
+}: ExternalLinkProps) => {
     return (
         <a
             href={href}
