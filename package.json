@@ -6,10 +6,11 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint",
+        "lint": "biome lint .",
+        "lint:fix": "biome lint --write .",
         "type-check": "tsc --noEmit",
-        "format": "prettier --write .",
-        "format:check": "prettier --check .",
+        "format": "biome format --write .",
+        "format:check": "biome format .",
         "prepare": "husky",
         "type-check-staged": "tsc --noEmit --skipLibCheck"
     },
@@ -19,30 +20,21 @@
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
+        "@biomejs/biome": "2.4.12",
         "@types/node": "^20.11.19",
         "@types/react": "^18.2.57",
         "@types/react-dom": "^18.2.19",
-        "@typescript-eslint/eslint-plugin": "^8.32.0",
-        "@typescript-eslint/parser": "^8.32.0",
         "autoprefixer": "10.4.14",
-        "eslint": "^8.56.0",
-        "eslint-config-next": "^15.3.1",
-        "eslint-config-prettier": "^10.1.2",
         "husky": "^9.1.7",
         "lint-staged": "^15.5.1",
         "postcss": "8.4.31",
-        "prettier": "^3.5.3",
         "tailwindcss": "3.3.0",
         "tsc-files": "^1.1.4",
         "typescript": "^5.3.3"
     },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx}": [
-            "prettier --write",
-            "eslint --fix"
-        ],
-        "*.{json,md}": [
-            "prettier --write"
+        "*.{js,jsx,ts,tsx,json,md}": [
+            "biome check --write --no-errors-on-unmatched"
         ],
         "*.{ts,tsx}": [
             "bash -c 'yarn type-check-staged'"

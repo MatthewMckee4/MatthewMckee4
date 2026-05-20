@@ -1,4 +1,3 @@
-import React from "react";
 import ExternalLink from "./ExternalLink";
 
 interface ProjectProps {
@@ -17,8 +16,8 @@ const Project = ({ title, description, links }: ProjectProps) => {
             <p className="text-muted-foreground mb-2">{description}</p>
             {links && (
                 <div className="space-x-4">
-                    {links.map((link, index) => (
-                        <ExternalLink key={index} href={link.href}>
+                    {links.map((link) => (
+                        <ExternalLink key={link.href} href={link.href}>
                             {link.text}
                         </ExternalLink>
                     ))}

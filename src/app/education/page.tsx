@@ -1,5 +1,4 @@
 import DatedTitle from "@/components/DatedTitle";
-import React from "react";
 
 export default function Education() {
     return (
@@ -47,7 +46,9 @@ export default function Education() {
             <br />
             <section className="mb-8">
                 <div className="flex justify-between items-center mb-2">
-                    <h2 className="text-2xl font-semibold">Jordanhill School</h2>
+                    <h2 className="text-2xl font-semibold">
+                        Jordanhill School
+                    </h2>
                     <small className="text-muted-foreground">2016 - 2022</small>
                 </div>
                 <ul className="list-disc pl-6 space-y-1 text-muted-foreground">
@@ -69,8 +70,8 @@ const CourseList = ({ title, courses }: CourseListProps) => {
         <div className="mb-8">
             <h3 className="text-xl font-semibold mb-2">{title}</h3>
             <ul className="list-disc pl-6 space-y-1 text-muted-foreground">
-                {courses.map((course, index) => (
-                    <li key={index}>{course}</li>
+                {courses.map((course) => (
+                    <li key={course}>{course}</li>
                 ))}
             </ul>
         </div>

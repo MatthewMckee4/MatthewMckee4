@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import type React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -17,7 +17,9 @@ function NavLink({ href, children }: NavLinkProps) {
         <Link
             href={href}
             className={`${
-                isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"
+                isActive
+                    ? "text-foreground"
+                    : "text-muted-foreground hover:text-foreground"
             } transition-colors`}
         >
             {children}
@@ -40,10 +42,12 @@ export default function Navigation() {
                         href="https://github.com/MatthewMckee4"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="GitHub"
                         className="text-muted-foreground hover:text-foreground transition-colors"
                     >
+                        <span className="sr-only">GitHub</span>
                         <svg
-                            role="img"
+                            aria-hidden="true"
                             viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-6 h-6 fill-white"
@@ -55,10 +59,12 @@ export default function Navigation() {
                         href="https://www.linkedin.com/in/matthew-mckee-227401289/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="LinkedIn"
                         className="text-muted-foreground hover:text-foreground transition-colors"
                     >
+                        <span className="sr-only">LinkedIn</span>
                         <svg
-                            role="img"
+                            aria-hidden="true"
                             viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-6 h-6 fill-white"
@@ -69,10 +75,12 @@ export default function Navigation() {
                     <a
                         href="/assets/resume.pdf"
                         download="Matthew_Mckee_Resume.pdf"
+                        aria-label="Download resume"
                         className="text-muted-foreground hover:text-foreground transition-colors"
                     >
+                        <span className="sr-only">Download resume</span>
                         <svg
-                            role="img"
+                            aria-hidden="true"
                             viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                             className="w-6 h-6 fill-white"
