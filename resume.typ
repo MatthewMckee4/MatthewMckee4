@@ -62,6 +62,17 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • #text("matthewmckee04@yah
 
 == Open Source / Projects
 
+Over *4000* GitHub contributions in the past year, focused on Python and Rust developer tooling.
+
+#grid(
+  columns: (1fr, auto),
+  align: (left, right),
+  [=== ty | Astral's Python Type Checker and Language Server | #link("https://github.com/astral-sh/ty")[#underline("GitHub")]],
+  [*February 2025 - Present*],
+)
+
+- *Top open-source contributor* to Astral's Python type checker and language server, written in Rust.
+
 #grid(
   columns: (1fr, auto),
   align: (left, right),
@@ -71,7 +82,6 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • #text("matthewmckee04@yah
 
 - Created an extremely fast Python test framework, similar to pytest, written in Rust.
 - Built the core test discovery and execution engine with a focus on low-latency feedback for Python developers.
-- Designed pytest-style ergonomics while using Rust for performance-critical internals.
 
 
 #grid(
@@ -82,11 +92,6 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • #text("matthewmckee04@yah
 )
 
 - Created an extremely fast release management tool, written in Rust.
-
-
-Largest open-source contributor to ty, Astral's Python type checker and language server written in Rust.
-
-Over *4000* GitHub contributions in the past year, focused on Python and Rust developer tooling.
 
 
 #line(length: 100%, stroke: 1pt + gray)
