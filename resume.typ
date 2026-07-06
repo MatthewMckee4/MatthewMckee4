@@ -14,7 +14,15 @@ Glasgow, Scotland (Open to Remote) • 07452991039 • #text("matthewmckee04@yah
 #grid(
   columns: (1fr, auto),
   align: (left, right),
-  [=== Human Data Team Lead | xAI], [*April 2026 - Present*],
+  [=== Member of Technical Staff | micro1], [*July 2026 - Present*],
+)
+
+- Working on the coding team to produce expert human data for training and evaluating frontier AI models.
+
+#grid(
+  columns: (1fr, auto),
+  align: (left, right),
+  [=== Human Data Team Lead | xAI], [*April 2026 - July 2026*],
 )
 
 - Managed hundreds of tutors supporting evaluations of state-of-the-art coding models.
@@ -104,7 +112,7 @@ Over *4000* GitHub contributions in the past year, focused on Python and Rust de
   [=== University of Glasgow], [*2022 - 2026*],
 )
 
-Bachelor of Science in Computing Science and Mathematics
+First-Class Honours BSc in Computing Science and Mathematics
 
 - Dougall Prize for 3rd year Mathematics
 

@@ -6,10 +6,28 @@ export default function Experience() {
             <h1 className="text-4xl font-bold mb-6">Experience</h1>
 
             <ExperienceSection
+                workplace="micro1"
+                positions={[
+                    {
+                        date: "July 2026 - Present",
+                        role: "Member of Technical Staff",
+                        content: (
+                            <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
+                                <li>
+                                    Working on expert human data for training
+                                    and evaluating frontier AI models.
+                                </li>
+                            </ul>
+                        ),
+                    },
+                ]}
+            />
+
+            <ExperienceSection
                 workplace="xAI"
                 positions={[
                     {
-                        date: "April 2026 - Present",
+                        date: "April 2026 - July 2026",
                         role: "Human Data Team Lead",
                         content: (
                             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
