@@ -1,6 +1,6 @@
 # About Me
 
-Human Data Team Lead at xAI. Studying Computing Science and Mathematics at The University of Glasgow. I enjoy writing Rust and Python.
+Member of Technical Staff on the coding team at micro1, working on human data for frontier AI models. First-Class Honours BSc Computing Science and Mathematics graduate from The University of Glasgow. I enjoy writing Rust and Python.
 
 Some of the projects I have been working on are:
 

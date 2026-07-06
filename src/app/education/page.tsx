@@ -9,7 +9,7 @@ export default function Education() {
                 <DatedTitle title="University of Glasgow" date="2022 - 2026" />
 
                 <p className="text-lg font-medium mb-4">
-                    Bachelors of Science, Computing Science and Mathematics
+                    First-Class Honours BSc, Computing Science and Mathematics
                 </p>
 
                 <div>
