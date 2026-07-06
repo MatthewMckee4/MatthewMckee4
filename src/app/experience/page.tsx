@@ -17,10 +17,6 @@ export default function Experience() {
                                     Working on expert human data for training
                                     and evaluating frontier AI models.
                                 </li>
-                                <li>
-                                    Building tooling and workflows for
-                                    high-quality coding human data operations.
-                                </li>
                             </ul>
                         ),
                     },
